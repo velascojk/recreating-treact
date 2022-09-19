@@ -247,17 +247,15 @@ FEATURES
 .features__para {
     width: 100%;
     max-width: 36rem;
-    text-align: center;
     font-size: 1.125rem;
     margin-top: 16px;
+    text-align: center;
     color: #7c8ba1;
 }
 
 .service__wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2.5rem;
-    margin-left: 80px;
 }
 
 .service {
@@ -268,12 +266,14 @@ FEATURES
 
 .service__img {
     flex-shrink: 0;
-    border-radius: 9999px;
-    border-width: 1px;
     padding: 1.25rem;
     margin-top: 1.25rem;
     text-align: center;
-    border-color: red;
+    border-style: solid;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(226, 232, 240);
+    height: 64px;
 }
 
 .service__info {
@@ -289,6 +289,7 @@ FEATURES
     font-weight: 700;
     line-height: 1;
     letter-spacing: 0.025em;
+    color:#243e63
 }
 
 .service__description {
