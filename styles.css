@@ -300,4 +300,72 @@ FEATURES
    color: #7c8ba1;
 }
 
-    
+/* 
+
+QUALITY WORK / PROFESSIONALS
+
+*/
+
+.professionals__column-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.professionals__column--left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.professionals__column--right {
+    width: 50%;
+}
+
+.professionals__img {
+    width: 100%;
+    border-style: solid;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: rgb(226, 232, 240);
+}
+
+.professionals__subheader {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.6px;
+    margin-bottom: 1rem;
+    color: rgb(100 21 255);
+}
+
+.professionals__title {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.025rem;
+    margin-top: 1rem;
+    color: #243e63;
+}
+
+.professionals__para {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 1rem;
+    color: #7c8ba1;
+}
+
+.professionals__btn {
+    display: inline-block;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-bottom: 8px;
+    margin-right: auto;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: #6145ff;
+    color: white;
+}
