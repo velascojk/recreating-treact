@@ -369,3 +369,23 @@ QUALITY WORK / PROFESSIONALS
     background-color: #6145ff;
     color: white;
 }
+
+/* 
+
+STEPS
+
+*/
+
+.steps__column--row {
+    display: flex;
+}
+
+.steps__column--left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__column--right {
+    width: 50%;
+}
