@@ -378,14 +378,73 @@ STEPS
 
 .steps__column--row {
     display: flex;
+    flex-direction: row;
 }
 
 .steps__column--left {
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin-right: 24px;
 }
 
 .steps__column--right {
     width: 50%;
+    margin-left: 24px;
+}
+
+.steps__subheader {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.6px;
+    margin-bottom: 1rem;
+    color: rgb(100 21 255);
+}
+
+.steps__title {
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 1rem;
+    color: #243e63;
+}
+
+.steps__img {
+    max-width: 100%;
+}
+
+.steps__steps {
+    margin-top: 2rem;
+}
+
+.steps__step {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.steps__stepsnumber {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #cbd5e0;
+}
+
+.steps__stepstext {
+    margin-left: 1.5rem;
+}
+
+.steps__stepsheader {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #243e63;
+}
+
+.steps__para {
+    font-size: 14px;
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    color: #718096;
 }
