@@ -24,7 +24,6 @@ button {
 
 button, input {
     font-size: 100%;
-    line-height: inherit;
     margin: 0px;
 }
 
@@ -449,3 +448,182 @@ STEPS
     max-width: 20rem;
     color: #718096;
 }
+
+/* 
+
+PRICING 
+
+*/
+
+.pricing__headercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.pricing__subheader {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.6px;
+    margin-bottom: 1rem;
+    color: rgb(100 21 255);
+}
+
+.pricing__title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    color: #243e63;
+}
+
+.pricing__para {
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 36rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: #7c8ba1;
+}
+
+.pricing__planscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing__planheader, 
+.pricing__planfeatures,
+.pricing__planaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__planheader {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.pricing__plan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    width: calc(100%/3);
+}
+
+.pricing__name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #1a202c;
+}
+
+.pricing__price {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.pricing__duration {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #a0aec0;
+}
+
+.pricing__planfeatures {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 2rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.pricing__feature {
+    margin-top: 20px;
+    color: #718096;
+}
+
+.mainFeature {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #1a202c;
+}
+
+.pricing__planaction {
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.pricing__buynowbutton {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 9999px;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+
+/* BUTTON / TEXT COLORS: */
+
+.green__btn {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%)
+}
+
+.white__btn {
+    background: #f7fafc;
+}
+
+.red__btn {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.white__text {
+    color: #f7fafc;
+}
+
+/* BUTTON / TEXT COLORS: */
+
+.purple__text {
+    color: #6145ff;
+}
+
+.pricing__highlight {
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    background-color: #6145ff;
+}
+
+.pricing__highlights {
+    color: #f7fafc;
+}
+
+.pricing__greenhighlight {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 100%;
+    max-height: 0.5rem;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
