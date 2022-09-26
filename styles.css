@@ -627,3 +627,57 @@ PRICING
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    padding-bottom: 6rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    background-color: #6145ff;
+}
+
+.footer__padding {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__subheader {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f7fafc;
+}
+
+.footer__links {
+    margin-top: 1.5rem;
+}
+
+.footer__link {
+    margin-top: 0.75rem;
+}
+
+.footer__link--text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f7fafc;
+}
+
+.footer__logo--container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo--img {
+    width: 100%;
+    max-width: 2rem;
+}
