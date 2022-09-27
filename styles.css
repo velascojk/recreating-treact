@@ -158,7 +158,6 @@ HEADER
 
 .header__img {
     width: 100%;
-    max-width: 32rem;
 }
 
 .header__email {
@@ -225,6 +224,11 @@ FEATURES
 
 */
 
+.features__header--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .features__subheader {
     font-weight: 700;
@@ -615,18 +619,6 @@ PRICING
     color: #f7fafc;
 }
 
-.pricing__greenhighlight {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    height: 100%;
-    max-height: 0.5rem;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
 /* 
 
 FOOTER
@@ -672,7 +664,17 @@ footer {
     color: #f7fafc;
 }
 
+.footer__logo--column {
+    margin-top: 8rem;
+}
+
 .footer__logo--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logotext--container {
     display: flex;
     align-items: center;
 }
@@ -680,4 +682,31 @@ footer {
 .footer__logo--img {
     width: 100%;
     max-width: 2rem;
+}
+
+.footer__logo--text {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 8px;
+    color: #f7fafc;
+}
+
+.footer__logo--copyright {
+    font-size: 16px;
+    color: #f7fafc;
+}
+
+.footer__social {
+    padding: 8px;
+    margin-right: 1rem;
+    border: solid;
+    border-radius: 9999px;
+    border-color: rgb(226, 232, 240);
+    background-color: rgb(226, 232, 240);
+}
+
+.footer__social--logo {
+    height: 1rem;
+    width: 1rem;
+    color: black;
 }
